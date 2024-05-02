@@ -1,0 +1,29 @@
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.register-form {
+  padding: 20px;
+  border: 1px solid;
+}
+
+.error-message {
+  color: red;
+}
+
+.dateTimePicker{
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+@media (max-width: 720px) {
+  .AppFooter {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+}
